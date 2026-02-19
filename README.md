@@ -1,47 +1,30 @@
-# [Nombre del Proyecto]
-> *Una frase corta e impactante que resuma qué hace este sistema.*
+# 🏋️ Gym Leader Platform
+> *Sistema de gestión para gimnasios ligero, rápido y fácil de desplegar.*
 
-![Banner o Captura Principal](ruta/a/imagen_principal.jpg)
-*(Si no tienes una imagen principal, usa la herramienta de generación de imágenes o una captura de pantalla)*
+## 📋 Requisitos Previos
+Para ejecutar este proyecto en tu computadora ("Para los chicos"), necesitas:
 
-## 🚩 El Problema / Contexto
-Describe aquí la situación inicial. ¿Qué dolor resolviste?
-*Ejemplo: "La gestión escolar en zonas con baja conectividad era manual y propensa a errores..." o "El monitoreo de vibración en turbinas requería presencia física constante..."*
+- **Servidor Web Local**: XAMPP (Recomendado) o Laragon.
+- **PHP**: Versión 7.4 o superior.
+- **MySQL / MariaDB**: Base de datos relacional.
 
-## 💡 La Solución
-Explica **qué** construiste. No pongas código, explica la arquitectura.
+## 🚀 Guía de Instalación (Paso a Paso)
+1. **Preparar los archivos**: Descarga el proyecto y colócalo en tu carpeta de servidor (`C:\xampp\htdocs\gym-leader`).
+2. **Base de Datos**:
+    - Abre phpMyAdmin.
+    - Crea una base de datos llamada `gym_db`.
+    - Importa el archivo `database.sql`.
+3. **Configuración**: Edita `config/db.php` si tus credenciales son diferentes a `root` sin contraseña.
 
-### Características Clave
-- ✅ **Característica 1**: Descripción breve.
-- ✅ **Característica 2**: Descripción breve.
-- ✅ **Característica 3**: Descripción breve.
+## 🛠️ Stack Tecnológico
+- **Lenguaje**: PHP Nativo (Sin frameworks pesados, optimizado para aprendizaje y despliegue simple).
+- **Frontend**: HTML5 + CSS3 (Diseño responsivo).
+- **Base de Datos**: MySQL.
 
-### Tecnologías Utilizadas
-| Categoría | Tecnologías |
-|-----------|-------------|
-| **Frontend** | (Ej. React, Android XML, Jinja2) |
-| **Backend** | (Ej. Python, Node.js, PHP) |
-| **Hardware** | (Ej. Arduino, Raspberry Pi, Sensores Bently Nevada) |
-| **Base de Datos** | (Ej. MySQL, SQLite) |
-
-## 📸 Galería
-> *Una imagen vale más que mil líneas de código.*
-
-|  |  |
-|--|--|
-| ![Descripción](ruta/imagen1.jpg) <br> *Pie de foto 1* | ![Descripción](ruta/imagen2.jpg) <br> *Pie de foto 2* |
-| ![Descripción](ruta/imagen3.jpg) <br> *Pie de foto 3* | ![Descripción](ruta/imagen4.jpg) <br> *Pie de foto 4* |
-
-## 🚀 Impacto / Resultados
-¿Qué logró este proyecto?
-- *Ejemplo: "Redujo el tiempo de inscripción en un 40%."*
-- *Ejemplo: "Permitió detección temprana de fallas en rodamientos."*
-- *Ejemplo: "Publicado en Play Store con X descargas."*
-
-## 🔒 Nota sobre el Código Fuente
-Este es un proyecto comercial / privado. Este repositorio contiene documentación técnica y demostrativa.
-*Si estás interesado en una demo técnica o contratación, contáctame.*
+## 🔐 Usuarios de Prueba (Demo)
+- **Admin**: `admin@gymleader.com` / `123456`
+- **Cliente**: Registro libre desde el formulario.
 
 ---
-**[Tu Nombre]**
-[Enlace a tu LinkedIn] | [Enlace a tu Web/Otro]
+**Gustavo Matheus**
+*Desarrollador Full Stack*
