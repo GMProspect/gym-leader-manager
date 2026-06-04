@@ -26,5 +26,4 @@ Para ejecutar este proyecto en tu computadora ("Para los chicos"), necesitas:
 - **Cliente**: Registro libre desde el formulario.
 
 ---
-**Gustavo Matheus**
-*Lead Developer*
+*Created by [GMProspect](https://github.com/GMProspect)*
