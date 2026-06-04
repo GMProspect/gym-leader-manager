@@ -27,4 +27,4 @@ Para ejecutar este proyecto en tu computadora ("Para los chicos"), necesitas:
 
 ---
 **Gustavo Matheus**
-*Desarrollador Full Stack*
+*Lead Developer*
